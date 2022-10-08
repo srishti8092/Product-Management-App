@@ -1,0 +1,63 @@
+@import '~antd/dist/antd.css';
+
+body, html {
+  height: 100%;
+  font-family: 'Nunito', sans-serif;
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+
+}
+
+
+ul {
+  list-style: none;
+  font-weight: bold;
+  padding-block:30px;
+}
+
+li  {
+  padding-block: 15px;
+  font-size: 1rem;
+}
+.product{
+  position: relative;
+  bottom:70px;
+  padding-left: 40px;
+  padding-top: 1px;
+  font-size: 60px;
+}
+
+.newproducts{
+    position: relative;
+    font-size: 30px;
+    bottom:100px;
+    font-weight: bold;
+  
+}
+
+.form{
+  padding: 20px;
+  padding-top: 3px;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.home{
+  padding: 40px;
+  float: center;
+  align-items: center;
+  color: #0000CD;
+  font-size: 20px;
+  justify-content: center;
+  font-weight: 600;
+}
+.home h3{
+  color:#0000CD;
+}
+.home p{
+  color:gray;
+  font-weight: normal;
+}
